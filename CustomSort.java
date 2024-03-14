@@ -1,9 +1,11 @@
+//CustomSort:
+//sample input: [19,56,45,78,92]
+//sample output: [92,19,78,45,56]
+//Explaination:[Largest,Smallest,SecondLargest,SecondSmallest,ThirdLargest,ThirdSmallest....]
 package customsort;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class CustomSort 
 {
     public static ArrayList<Integer>customSort(int nums[])
