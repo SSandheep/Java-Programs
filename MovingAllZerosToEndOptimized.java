@@ -1,8 +1,6 @@
 package movingallzerostoend.optimized;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class MovingAllZerosToEndOptimized 
 {
     public static  void movingAllZerosToEnd(int arr[],int n){
