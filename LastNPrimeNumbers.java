@@ -8,7 +8,7 @@ public class LastNPrimeNumbers
     public static boolean isPrime(int num)
     {
         int flag=1;
-        for(int i=2;i<=Math.sqrt(num);i++)
+        for(int i=2;i*i<=num;i++)
         {
             if(num%i==0) 
             {
@@ -44,3 +44,4 @@ public class LastNPrimeNumbers
     }
     
 }
+//O(n*sqrt(n)) complexity
