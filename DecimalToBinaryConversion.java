@@ -7,6 +7,10 @@ public class DecimalToBinaryConversion
        Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Integer number:");
         int num=sc.nextInt();
+        String res=Integer.toBinaryString(num);
+        System.out.println(res);
+        //Alternate solution
+        /*
         StringBuilder s=new StringBuilder();
         int rem;
         while(num!=1)
@@ -18,6 +22,7 @@ public class DecimalToBinaryConversion
         if(num==1)
             s.append(num);
         System.out.println("The corresponding binary number is: \n"+s.reverse().toString());
+        */
     }
     
 }
