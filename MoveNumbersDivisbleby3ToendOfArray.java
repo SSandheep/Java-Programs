@@ -13,7 +13,7 @@ Suppose N = 9 and Arr[]={10, 12, 5, 40, 30, 7, 50, 9, 10}
 
  You have to push all multiple of 10 at the end of the Arr[] Hence, the output is 12 5 7 9 10 40 30 50 10.
 */
-package movenumbersdivisbleby3toendofarray;
+package movenumbersdivisbleby10toendofarray;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
