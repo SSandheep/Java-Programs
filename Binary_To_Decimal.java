@@ -18,8 +18,8 @@ public class Binary_To_Decimal
     public static void main(String[] args) 
     {
         Scanner sc=new Scanner(System.in);   
-        String s=sc.next();
         System.out.println("Enter the Binary String:");
+        String s=sc.next();
         int num=binaryToDecimal(s);
         System.out.println("The corresponding Decimal Number is:");
         System.out.println(num);
