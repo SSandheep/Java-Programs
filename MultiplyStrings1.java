@@ -1,17 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package multiplystrings1;
-
 import java.math.BigInteger;
 import java.util.Scanner;
-
-/**
- *
- * @author Aartheeswari
- */
 public class MultiplyStrings1 {
    public String multiply(String num1, String num2) 
    {
