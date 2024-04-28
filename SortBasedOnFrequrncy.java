@@ -29,9 +29,9 @@ public class SortBasedOnFrequrncy
         int temp=0;
         for(int i=0;i<size-1;i++)
         {
-            for(int j=i+1;j<size-1;j++)
+            for(int j=i+1;j<size;j++)
             {
-              if(hm.get(arr[i])>hm.get(arr[j])){
+              if(hm.get(arr[i])<hm.get(arr[j])){
                 temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
