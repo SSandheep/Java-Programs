@@ -54,20 +54,25 @@ public class TelephoneDirectoryProblem
                else
                    validphno=0;
                
-               if(phnos[j].contains(phnos[i]) && validphno==1)
+               if(phnos[j].startsWith(phnos[i]) && validphno==1)
                {
                    collision=phnos[i];
                }
-
+                              
+               if(phnos[i].startsWith(phnos[j]) && validphno==1)
+               {
+                   collision=phnos[j];
+               }
             }
         }
+       if(validphno==0)
+         System.out.println("Entered phnos are not valid");
         
         if(collision!=null)
           System.out.println("No, there is collision with "+collision);
-        else if(collision==null && validphno==1)
+        else 
           System.out.println("Yes, the list of 5 numbers is consistent");
-        else
-            System.out.println("Entered phnos are not valid");
+ 
       
     }
     
