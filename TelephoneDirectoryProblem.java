@@ -49,7 +49,7 @@ public class TelephoneDirectoryProblem
         {
             for(int j=i+1;j<n;j++)
             {
-               if(phnos[i].length()<=10 || phnos[i].length()<=10)
+               if(phnos[i].length()<=10 && phnos[i].length()<=10)
                    validphno=1;
                else
                    validphno=0;
