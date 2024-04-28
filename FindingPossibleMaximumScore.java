@@ -62,10 +62,17 @@ public class FindingPossibleMaximumScore
          int marks=0;
           for(int i=0;i<n;i++)
           { 
-             timelimit+=hm.get(mark[i]);  
-             marks+=mark[i];
               if(timelimit>t)
-             {
+              {
+                  continue;
+              }
+              if(timelimit<t)
+              {
+                 timelimit+=hm.get(mark[i]);  
+                 marks+=mark[i];
+              }
+              if(timelimit>t)
+              {
               timelimit-=hm.get(mark[i]);
               marks-=mark[i];
               break;
